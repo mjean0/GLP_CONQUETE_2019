@@ -13,5 +13,5 @@ public class Cannon{
 		this.name = name;
 		this.quantity = quantity;
 	}
-	
+	 
 }

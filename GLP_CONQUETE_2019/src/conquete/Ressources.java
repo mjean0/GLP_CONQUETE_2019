@@ -15,7 +15,7 @@ public class Ressources{
 	private Transports transport;
 	
 	public Ressources() {
-		super();
+		super(); 
 		gold = null;
 		diamond = null;
 		iron = null;

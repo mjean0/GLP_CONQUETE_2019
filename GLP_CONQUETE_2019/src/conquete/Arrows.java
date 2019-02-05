@@ -13,6 +13,6 @@ public class Arrows{
 		this.name = name;
 		this.quantity = quantity;
 	}
-	
+	 
 
 }

@@ -12,5 +12,5 @@ public class Weapons{
 		this.arrow = arrow;
 		this.fireBall = fireBall;
 	}
-	
+	 
 }

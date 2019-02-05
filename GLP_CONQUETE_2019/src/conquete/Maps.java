@@ -7,7 +7,7 @@ public class Maps {
 	public Maps() {
 		super();
 		country = null;
-		name = null;
+		name = null; 
 	}
 	public Maps(Country country, String name) {
 		super();

@@ -13,5 +13,5 @@ public class FireBall{
 		this.name = name;
 		this.quantity = quantity;
 	}
-	
+	 
 }

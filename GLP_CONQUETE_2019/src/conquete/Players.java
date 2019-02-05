@@ -20,7 +20,7 @@ public class Players{
 		this.playerName = playerName;
 		this.lifePoint = lifePoint;
 		this.playerCountry = playerCountry;
-		this.ennemy = ennemy;
+		this.ennemy = ennemy; 
 		this.round = round;
 	}
 	

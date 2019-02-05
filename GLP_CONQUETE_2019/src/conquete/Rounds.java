@@ -6,7 +6,7 @@ public class Rounds{
 	private boolean end;
 	private TechnicalSheet technicalSheet;
 	public Rounds(){
-		begin = false;
+		begin = false; 
 		end = false;
 	}
 	public Rounds(boolean begin, boolean end){
