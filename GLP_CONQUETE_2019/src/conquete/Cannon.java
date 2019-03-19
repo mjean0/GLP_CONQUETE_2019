@@ -1,17 +1,8 @@
-package conquete;
+package gui.elements;
 
-public class Cannon{
-//Attributes
-	private String name;
-	private int quantity;
+public class Cannon extends Accessories{
+	//Attributes	
 	public Cannon() {
-		super();
-		// TODO Auto-generated constructor stub
+		super("Cannon",Constant.DEFAULT_QUANTITY,1,"src/test_assets/cannon.png");
 	}
-	public Cannon(String name, int quantity) {
-		super();
-		this.name = name;
-		this.quantity = quantity;
-	}
-	 
 }
