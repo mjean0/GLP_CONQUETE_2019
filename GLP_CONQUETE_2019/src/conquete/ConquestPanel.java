@@ -50,12 +50,12 @@ public class ConquestPanel extends JPanel {
 	    jlbName.setForeground(Color.white);
 	    jtfName.setFont(new Font("arial", Font.ITALIC, 15));
 	  
-	    jbNext.setFont(MY_FONT);
+//	    jbNext.setFont(MY_FONT);
 	    jbNext.setBackground(Color.black);
 	    jbNext.setForeground(Color.WHITE);
 	    jbNext.setFocusPainted(false);
 	  	
-	  	jbBackToPlay.setFont(MY_FONT);
+//	  	jbBackToPlay.setFont(MY_FONT);
 	  	jbBackToPlay.setBackground(Color.black);
 	  	jbBackToPlay.setForeground(Color.WHITE);
 	  	jbBackToPlay.setFocusPainted(false);

@@ -57,18 +57,18 @@ public class PlayPanel extends JPanel {
 	    modeGame.setForeground(Color.WHITE);
 	   
 	    jbSolo.setFont(MY_FONT);
-	    jbSolo.setBackground(Color.DARK_GRAY);
+	    jbSolo.setBackground(Color.black);
 	   	jbSolo.setForeground(Color.WHITE);
 	   	jbSolo.setFocusPainted(false);
 	   	
 	   	
-	   	jbMulti.setFont(MY_FONT); 
-	   	jbMulti.setBackground(Color.DARK_GRAY);
+//	   	jbMulti.setFont(MY_FONT); 
+	   	jbMulti.setBackground(Color.black);
 	   	jbMulti.setForeground(Color.WHITE);
 	   	jbMulti.setFocusPainted(false);
 	   	
-	   	jbBackToMain.setFont(MY_FONT); 
-	   	jbBackToMain.setBackground(Color.DARK_GRAY);
+//	   	jbBackToMain.setFont(MY_FONT); 
+	   	jbBackToMain.setBackground(Color.black);
 	   	jbBackToMain.setForeground(Color.WHITE);
 	   	jbBackToMain.setFocusPainted(false);
 	   	

@@ -43,8 +43,8 @@ public class MultiPlayerPanel extends JPanel {
 	    
 		   jbStart  = new JButton("Start");
 		   jbBackToPlay = new JButton("Back");
-		   jtfGamer1  = new JTextField(10);
-		   jtfGamer2 = new JTextField(10) ;
+		   jtfGamer1  = new JTextField(8);
+		   jtfGamer2 = new JTextField(8) ;
 		   jlGamer1 = new JLabel("Player 1 :");
 		   jlGamer2 = new JLabel("PLayer 2 :");
 	    	    
@@ -53,12 +53,12 @@ public class MultiPlayerPanel extends JPanel {
 	      jlGamer2.setFont(new Font("arial", Font.PLAIN, 20));
 	      jlGamer2.setForeground(Color.white);
 	     
-	     jbStart.setFont(MY_FONT);
-	     jbStart.setBackground(Color.DARK_GRAY);
+//	     jbStart.setFont(MY_FONT);
+	     jbStart.setBackground(Color.black);
 	     jbStart.setForeground(Color.WHITE);
 	  	 jbStart.setFocusPainted(false);
 	  	 
-	  	 jbBackToPlay.setFont(MY_FONT);
+//	  	 jbBackToPlay.setFont(MY_FONT);
 	  	 jbBackToPlay.setBackground(Color.black);
 	  	 jbBackToPlay.setForeground(Color.WHITE);
 	  	 jbBackToPlay.setFocusPainted(false);
@@ -67,16 +67,13 @@ public class MultiPlayerPanel extends JPanel {
 	  	 jtfGamer2.setText("Enter your name");
 	  	 jtfGamer1.setFont(new Font("arial", Font.ITALIC, 15));
 	  	 jtfGamer2.setFont(new Font("arial", Font.ITALIC, 15));
-	  	 
-//	  	 jtfGamer1.addMouseListener(new mouseAction());
-//	  	 jtfGamer2.addMouseListener(new mouseAction());
-			
+
 	  	 jlGamer1.setBounds(600,200,190,30);
 	  	 jtfGamer1.setBounds(600, 240, 190, 30);
 	  	 jlGamer2.setBounds(600,280,190,30);
 	  	 jtfGamer2.setBounds(600, 320, 190, 30);
 	  	 jbStart.setBounds(600, 360, 190, 30);
-	  	 jbBackToPlay.setBounds(600,640,190,30);
+	  	 jbBackToPlay.setBounds(600,420,190,30);
 	  	 
 	  	 add(jlGamer1);
 	  	 add(jtfGamer1);

@@ -42,7 +42,7 @@ public class MainPanel extends JPanel {
 	    	 tabButton[i] = new JButton(textButton[i]);
 	    	 tabButton[i].setText(textButton[i]);
 	    	 tabButton[i].setPreferredSize(DIMENSION_BUTTON);
-	    	 tabButton[i].setFont(MY_FONT);
+//	    	 tabButton[i].setFont(MY_FONT);
 	    	 tabButton[i].setBackground(Color.black);
 	    	 tabButton[i].setForeground(Color.WHITE);
 	    	 tabButton[i].setFocusPainted(false);
