@@ -1,0 +1,111 @@
+package test;
+
+import gui.elements.Constant;
+
+public class Variables {
+
+	private int[]newIndex = new int[Constant.MAX_ITEMS];
+	private int[]currentIndex = new int[Constant.MAX_ITEMS];
+	private int[]lastIndex = new int[Constant.MAX_ITEMS];
+	
+	private boolean drawArrowOnTheMap;
+	private boolean drawCannonOnTheMap;
+	
+	private boolean MapvalidateArrow;
+	private boolean MapvalidateCannon;
+	
+	private boolean validateArrow;
+	private boolean validateCannon;
+	
+	//IconsDrawer variables management
+	private boolean iconsDrawerIsOnTheMap;
+
+	
+	public Variables(){
+		init();
+	}
+	
+	public void init(){
+		for(int i = 0; i<Constant.MAX_ITEMS; i++){
+			newIndex[i] = 0;
+			currentIndex[i] = 0; 
+			lastIndex[i] = 0;
+		}
+		drawArrowOnTheMap = false;
+		drawCannonOnTheMap = false;
+		MapvalidateArrow = false;
+		MapvalidateCannon = false;
+		validateArrow = false;
+		validateCannon = false;
+		iconsDrawerIsOnTheMap = false;
+	}
+
+	public int[] getNewIndex() {
+		return newIndex;
+	}
+
+	public int[] getCurrentIndex() {
+		return currentIndex;
+	}
+
+	public int[] getLastIndex() {
+		return lastIndex;
+	}
+
+	public boolean isMapvalidateArrow() {
+		return MapvalidateArrow;
+	}
+
+	public boolean isMapvalidateCannon() {
+		return MapvalidateCannon;
+	}
+
+	public boolean isValidateArrow() {
+		return validateArrow;
+	}
+
+	public boolean isValidateCannon() {
+		return validateCannon;
+	}
+
+	public void setMapvalidateArrow(boolean mapvalidateArrow) {
+		MapvalidateArrow = mapvalidateArrow;
+	}
+
+	public void setMapvalidateCannon(boolean mapvalidateCannon) {
+		MapvalidateCannon = mapvalidateCannon;
+	}
+
+	public void setValidateArrow(boolean validateArrow) {
+		this.validateArrow = validateArrow;
+	}
+
+	public void setValidateCannon(boolean validateCannon) {
+		this.validateCannon = validateCannon;
+	}
+
+	public boolean isDrawArrowOnTheMap() {
+		return drawArrowOnTheMap;
+	}
+
+	public void setDrawArrowOnTheMap(boolean moveArrow) {
+		this.drawArrowOnTheMap = moveArrow;
+	}
+
+	public boolean isDrawCannonOnTheMap(){
+		return drawCannonOnTheMap;
+	}
+
+	public void setDrawCannonOnTheMap(boolean moveCannon) {
+		this.drawCannonOnTheMap = moveCannon;
+	}
+
+	public boolean isIconsDrawerIsOnTheMap() {
+		return iconsDrawerIsOnTheMap; 
+	} 
+
+	public void setIconsDrawerIsOnTheMap(boolean iconsDrawerIsOnTheMap) {
+		this.iconsDrawerIsOnTheMap = iconsDrawerIsOnTheMap;
+	}
+	
+}
